@@ -105,7 +105,7 @@ This plugin lets you trigger new builds when your build has completed, with vari
 You can add multiple configurations: each has a list of projects to trigger, a condition for when to trigger them (based on the result of the current build), and a parameters section.
 Plugin page: https://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Trigger+Plugin
 - rebuild
-Place nice with previous one: this plug-in allows the user to rebuild a parametrized build without entering the parameters again.
+Plays nice the with previous one: this plug-in allows the user to rebuild a parametrized build without entering the parameters again.
 Plugin page: https://wiki.jenkins-ci.org/display/JENKINS/Rebuild+Plugin
 - ssh You can use the SSH Plugin to run shell commands on a remote machine via ssh
 Plugin page: https://wiki.jenkins-ci.org/display/JENKINS/SSH+plugin
