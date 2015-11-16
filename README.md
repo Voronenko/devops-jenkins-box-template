@@ -240,6 +240,7 @@ jenkins_users:
 </pre>
 
 - jenkins_plugins Your choice of plugins to install. By default:
+
 <pre>
 jenkins_plugins:
   - bitbucket # https://wiki.jenkins-ci.org/display/JENKINS/BitBucket+Plugin
@@ -263,7 +264,7 @@ jenkins_plugins:
   - throttle-concurrents #https://wiki.jenkins-ci.org/display/JENKINS/Throttle+Concurrent+Builds+Plugin
 </pre>
 
-# Code in action
+## Code in action
 
 Code can be downloaded from repository [https://github.com/Voronenko/devops-jenkins-box-template](https://github.com/Voronenko/devops-jenkins-box-template)
 In order to use it - fork it, adjust parameters to your needs, and use.
