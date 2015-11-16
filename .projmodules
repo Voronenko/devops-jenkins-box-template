@@ -1,0 +1,10 @@
+[submodule "public/ansible_developer_recipes"]
+	path = public/ansible_developer_recipes
+	url = git@github.com:Voronenko/ansible-developer_recipes.git
+[submodule "roles/sa-box-bootstrap"]
+        path = roles/sa-box-bootstrap
+        url = git@github.com:softasap/sa-box-bootstrap.git
+[submodule "roles/sa-box-jenkins"]
+        path = roles/sa-box-jenkins
+        url = git@github.com:softasap/sa-box-jenkins.git
+

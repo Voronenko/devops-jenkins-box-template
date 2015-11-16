@@ -1,0 +1,10 @@
+---
+- hosts: jenkins
+
+  vars_files:
+    - ./jenkins_vars.yml
+  roles:
+     - {
+         role: "sa-box-jenkins",
+         root_dir: "{{playbook_dir}}/public/ansible_developer_recipes"
+       }

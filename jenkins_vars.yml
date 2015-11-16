@@ -1,0 +1,20 @@
+ jenkins_cli_jar: /var/cache/jenkins/war/WEB-INF/jenkins-cli.jar
+ jenkins_install_dir: /var/lib/jenkins
+
+ jenkins_user: jenkins
+ jenkins_authorized_keys:
+   - "{{playbook_dir}}/components/files/ssh/vyacheslav.pub"
+
+ jenkins_domain: "vagrant.dev"
+ jenkins_host: "jenkins"
+
+ java_version: 8
+
+ ssl_key_fqdn:  "{{jenkins_host}}.{{jenkins_domain}}"
+ ssl_key_name:  jenkins_selfsigned
+ ssl_cert_name: jenkins_selfsigned
+
+ ssl_install_path: /etc/nginx
+ ssl_files:
+   - "{{ssl_key_name}}.key"
+   - "{{ssl_cert_name}}.crt"
