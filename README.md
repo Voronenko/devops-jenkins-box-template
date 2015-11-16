@@ -117,7 +117,7 @@ Unfortunately, this is must have plugin for Node (0.10-0.12) projects with NPM  
 Plugin page: https://wiki.jenkins-ci.org/display/JENKINS/Throttle+Concurrent+Builds+Plugin
 
 Plugins are installed using Plugin manager on a Manage Jenkins Section.
-![Plugins manager](https://raw.githubusercontent.com/Voronenko/devops-jenkins-box-template/master/docs/enable_security.png)
+![Plugins manager](https://raw.githubusercontent.com/Voronenko/devops-jenkins-box-template/master/docs/plugins-manager.png)
 
 
 ### Put behind web server
