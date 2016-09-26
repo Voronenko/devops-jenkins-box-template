@@ -1,6 +1,6 @@
-[submodule "public/ansible_developer_recipes"]
-	path = public/ansible_developer_recipes
-	url = git@github.com:Voronenko/ansible-developer_recipes.git
+[submodule "roles/sa-vnc-remote-desktop"]
+        path = roles/sa-vnc-remote-desktop
+        url = https://github.com/softasap/sa-vnc-remote-desktop.git
 [submodule "roles/sa-box-bootstrap"]
         path = roles/sa-box-bootstrap
         url = git@github.com:softasap/sa-box-bootstrap.git

@@ -11,3 +11,8 @@
          option_enforce_ssh_keys_login: false,
          option_file2ban: false
        }
+     - {
+         role: "sa-vnc-remote-desktop",
+         vnc_password: vnc
+       }
+
