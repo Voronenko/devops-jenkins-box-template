@@ -1,4 +1,2 @@
-[jenkins_bootstrap]
-192.168.0.17 ansible_ssh_user=your_initial_root_user ansible_ssh_pass=your_initial_root_pass_ifkeys
 [jenkins]
 192.168.0.17 ansible_ssh_user=jenkins

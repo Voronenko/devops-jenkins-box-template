@@ -6,7 +6,8 @@
   roles:
      - {
          role: "sa-box-bootstrap",
-         root_dir: "{{playbook_dir}}/public/ansible_developer_recipes",
          deploy_user: "{{jenkins_user}}",
-         deploy_user_keys: "{{jenkins_authorized_keys}}"
+         deploy_user_keys: "{{jenkins_authorized_keys}}",
+         option_enforce_ssh_keys_login: false,
+         option_file2ban: false
        }
